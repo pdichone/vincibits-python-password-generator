@@ -2,7 +2,7 @@
 
 A simple password generator script with Python.
 
-Watch the tutorial video on my channel [VinciBits](www.youtube.com/@vincibits).
+Watch the tutorial video on my channel [VinciBits](https://www.youtube.com/@vincibits).
 
 ## How to Use This Script
 1. Run the script. 
