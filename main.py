@@ -1,9 +1,6 @@
 import random
 import string
 
-# or
-from sys import argv
-
 
 def generate_password(length):
     if length < 4:
@@ -29,11 +26,14 @@ def generate_password(length):
 
 def main():
     try:
-        length = int(input("Enter the desired length of the password (minimum 4 characters): "))
+        length = int(
+            input("Enter the desired length of the password (minimum 4 characters): ")
+        )
         password = generate_password(length)
         print(f"Generated Password: {password}")
     except ValueError as e:
         print(f"Error: {e}")
+
 
 if __name__ == "__main__":
     main()
